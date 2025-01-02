@@ -1,0 +1,43 @@
+<section class="best-selling-section py-5">
+  <div style="padding-right: 20px">
+    <div class="row" style="padding-left: 50px; padding-right: 50px">
+      <div class="col-6 text-left mb-4">
+        <h2 class="section-title">
+            BEST <strong>SELL</strong>ING
+        </h2>
+      </div>
+      <div class="col-6 text-right">
+        <div class="row justify-content-end mt-4">
+          <div class="col-auto">
+            <button class="btn custom-btn prev">
+              <span class="arrow-left me-2">&#x2190;</span>
+              <span>Prev</span>
+            </button>
+          </div>
+          <div class="col-auto">
+            <button class="btn custom-btn next">
+              <span>Next</span>
+              <span class="arrow-right ms-2">&#x2192;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="row mt-5 gap-3 mx-auto justify-content-center">
+        <app-product-item
+          class="col-md-2 col-sm-3 align-content-center justify-content-center"
+          *ngFor="let product of products"
+          [product]="product"
+        ></app-product-item>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <a href="#" class="btn btn-dark">SHOP NOW</a>
+      </div>
+    </div>
+  </div>
+</section>

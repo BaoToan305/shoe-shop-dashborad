@@ -1,0 +1,57 @@
+.custom-btn {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+.prev::before {
+    width: 100%;
+    left: 0;
+}
+
+.next::after {
+    width: 100%;
+    right: 0;
+}
+
+.prev:hover::before, .next:hover::after {
+    width: 50%;
+}
+
+.arrow-left, .arrow-right {
+    font-size: 24px;
+}
+
+.section-title {
+    font-family: 'Geist', sans-serif; /* Thay thế bằng font-family mà bạn cần */
+    font-size: 48px; /* Điều chỉnh kích thước chữ theo ý muốn */
+    font-weight: normal; /* Không cần in đậm mặc định */
+    display: inline-block;
+}
+
+.section-title strong {
+    font-weight: bold;
+    color: black; /* Màu đen cho phần chữ "SELLING" */
+}
+
+.section-title {
+    color: transparent;
+    -webkit-text-stroke: 1px black; /* Tạo đường viền chữ "BEST" */
+}
+
+.section-title strong {
+    -webkit-text-stroke: 1; /* Loại bỏ đường viền của phần chữ "SELLING" */
+}

@@ -1,0 +1,55 @@
+
+
+.container-fluid {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.login-left {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #000;
+}
+
+p {
+  color: #6c757d;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.btn-danger {
+  background-color: #EA454C;
+}
+
+.btn-outline-secondary {
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+a.text-danger {
+  color: #f44336;
+}
+
+/* Phần hình ảnh bên phải */
+.login-right {
+  width: 50%; /* Chiếm 50% màn hình */
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Đảm bảo không có khoảng trống dư thừa */
+}

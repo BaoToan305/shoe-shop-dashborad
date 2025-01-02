@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  border: none;
+  padding-right: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
+}
+
+.overlay:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+
+}
+
+.img-medium {
+  height: 500px;
+  object-fit: initial;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}

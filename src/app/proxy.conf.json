@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+      "target": "https://extensions.chatgptextension.ai",
+      "secure": true,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }

@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  margin-left: 5rem;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+button.new-arrivals {
+  background-color: #4a4c6c;
+  border: 5px solid #7c7ea1;
+}
+
+button.trending {
+  background-color: #77794e;
+  border: 5px solid #9fa16d;
+}

@@ -1,0 +1,43 @@
+.card-img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    bottom: 100px;
+  }
+  .card {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    height: 600px; /* Đặt chiều cao cố định cho thẻ */
+  }
+  .btn-custom {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 20px;
+  }
+  .btn-custom:hover {
+    background-color: white;
+    color: black;
+  }
+
+   /* Điều chỉnh hình ảnh để tạo chênh lệch */
+   .card-left {
+    margin-top: -50px; /* Đẩy thẻ bên trái xuống */
+  }
+  .card-right {
+    margin-top: 50px; /* Đẩy thẻ bên phải lên */
+  }
+
+  .line {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #E9E9EB;
+  }

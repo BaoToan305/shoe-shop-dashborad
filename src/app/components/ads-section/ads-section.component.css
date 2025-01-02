@@ -1,0 +1,57 @@
+.carousel-item {
+    position: relative;
+  }
+  
+  /* Additional styles for text appearance */
+  .carousel-caption h1 {
+    font-size: 8vw;
+    font-weight: bold;
+    opacity: 0.1;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+  }
+  
+  .carousel-caption {
+    align-content: space-around;
+  }
+  .carousel-img {
+      width: 550px;
+      height: 550px;
+    }
+   /* Media query for tablets */
+   @media (max-width: 768px) {
+      .carousel-img {
+        width: 350px;
+        height: 350px;
+      }
+  
+      /* Adjust the font size of the caption for smaller screens */
+      .carousel-caption h1 {
+        font-size: 10rem; /* Smaller text size for tablets */
+      }
+    }
+  
+    /* Media query for mobile devices */
+    @media (max-width: 576px) {
+      .carousel-img {
+        width: 250px;
+        height: 250px;
+      }
+  
+      /* Adjust the font size of the caption for mobile screens */
+      .carousel-caption h1 {
+        font-size: 5rem; /* Smaller text size for phones */
+      }
+  
+      .carousel-caption h5 {
+        font-size: 1rem; /* Adjust subtitle size for phones */
+      }
+  
+      /* Adjust positioning of text for mobile */
+      .carousel-caption {
+        top: 10%; /* Lower the position of the caption for mobile */
+      }
+    }
